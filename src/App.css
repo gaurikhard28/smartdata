@@ -1,0 +1,24 @@
+
+.App {
+  text-align: center;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f9f9f9;
+  padding: 20px;
+}
+.dashboard {
+  margin: auto;
+  max-width: 1000px;
+}
+.charts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+.chart-box {
+  background: white;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  width: 300px;
+}
