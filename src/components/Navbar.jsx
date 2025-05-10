@@ -60,7 +60,7 @@ const Navbar = ({ userName = "John Doe", businessName = "SmatData", onLogout, on
                         color: selectedKey === 'dashboard' ? "#fff" : "#000",
                         fontSize: "16px",
                         cursor: 'pointer',
-                        backgroundColor: selectedKey === 'dashboard' ? "#add8e6" : "transparent",
+                        backgroundColor: selectedKey === 'dashboard' ? "rgba(244, 167, 199, 0.82)" : "transparent",
                         padding: "5px 10px",
                         borderRadius: "5px",
                         display: "inline-block",
@@ -100,7 +100,7 @@ const Navbar = ({ userName = "John Doe", businessName = "SmatData", onLogout, on
                         style={{
                             padding: "2px 2px",
                             color: selectedKey === index ? "#fff" : "#555",
-                            backgroundColor: selectedKey === index ? "#add8e6" : "#fff",
+                            backgroundColor: selectedKey === index ? "rgba(244, 167, 199, 0.82)" : "#fff",
                             fontSize: "16px",
                             fontFamily: "Arial, sans-serif",
                             fontWeight: "200",
